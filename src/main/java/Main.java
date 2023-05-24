@@ -1,3 +1,6 @@
+//Se creaza si  adauga intr-o lista 3 animale de tip Cat, Dog, Mouse
+//Iterand lisa animalelor se apeleaza metoda clasei de baza: makeSound pentru fiecare animal
+
 import java.util.ArrayList;
 import java.util.List;
 

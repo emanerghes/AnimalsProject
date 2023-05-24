@@ -1,3 +1,4 @@
+// Un tip de animal -> Caine care mosteneste atributele si metodele din clasa Animal
 public class Dog extends Animal {
 
     private String breed;

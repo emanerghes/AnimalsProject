@@ -1,3 +1,4 @@
+// Clasa de baza Animal din care sunt derivate si restul animalelor
 public class Animal {
 
     private String nume;
