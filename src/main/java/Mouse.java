@@ -1,4 +1,5 @@
 // Un tip de animal -> Soarece care mosteneste atributele si metodele din clasa Animal
+
 public class Mouse extends Animal {
 
     private int age;
