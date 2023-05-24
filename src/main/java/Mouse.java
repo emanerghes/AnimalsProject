@@ -1,6 +1,6 @@
 public class Mouse extends Animal {
-    private int age;
 
+    private int age;
 
     public Mouse(String name, String sound, int age, boolean isWhite) {
         super(name, sound);

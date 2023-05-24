@@ -1,4 +1,5 @@
 public class Cat extends Animal {
+
     private String coatColor;
 
     public Cat(String name, String sound, String coatColor) {

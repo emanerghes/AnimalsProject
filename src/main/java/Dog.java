@@ -1,4 +1,5 @@
 public class Dog extends Animal {
+
     private String breed;
 
     public Dog(String nume, String sound, String breed) {
