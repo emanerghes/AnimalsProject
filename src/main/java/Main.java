@@ -1,12 +1,17 @@
-    public class Main {
-        public static void main(String[] args) {
-            // Create instances of different animals
-            Animal dog = new Dog("Bobby", "Woof", "Labrador");
-            Animal cat = new Cat("Whiskers", "Meow", "Tabby");
-            Animal mouse = new Mouse("Jerry", "Squeak", 1, true);
+import java.util.ArrayList;
+import java.util.List;
 
-            dog.makeSound();
-            cat.makeSound();
-            mouse.makeSound();
+public class Main {
+        public static void main(String[] args) {
+
+            List<Animal> myAnimals = new ArrayList<Animal>();
+            myAnimals.add( new Dog("Bobby", "Woof", "Labrador"));
+            myAnimals.add( new Cat("Bella","Meow", "Tabby"));
+            myAnimals.add( new Mouse("Jerry", "Chitz", 1, true));
+
+            for (Animal myAnimal: myAnimals )
+            {
+                myAnimal.makeSound();
+            }
         }
     }
