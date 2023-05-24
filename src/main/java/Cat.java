@@ -1,5 +1,5 @@
 // Un tip de animal -> Pisica care mosteneste atributele si metodele din clasa Animal
-public class Cat extends Animal {
+ public class Cat extends Animal {
 
     private String coatColor;
 
