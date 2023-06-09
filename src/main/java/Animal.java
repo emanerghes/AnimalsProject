@@ -10,24 +10,9 @@ public class Animal {
         this.sound = sound;
     }
 
-    public Animal() {
-
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public String getSound() {
-        return sound;
-    }
-
-    public void setSound(String sound) {
-        this.sound = sound;
-    }
-
     public void makeSound() {
 
         System.out.println(type + " " + this.getClass().getName() + " " + "makes sound:" + sound);
+
     }
 }
