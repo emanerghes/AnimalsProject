@@ -2,11 +2,11 @@
 
 public class Animal {
 
-    private String nume;
+    private String type;
     private String sound;
 
-    public Animal(String nume, String sound) {
-        this.nume = nume;
+    public Animal(String type, String sound) {
+        this.type = type;
         this.sound = sound;
     }
 
@@ -14,12 +14,8 @@ public class Animal {
 
     }
 
-    public String getNume() {
-        return nume;
-    }
-
-    public void setNume(String nume) {
-        this.nume = nume;
+    public String getType() {
+        return type;
     }
 
     public String getSound() {
@@ -31,6 +27,7 @@ public class Animal {
     }
 
     public void makeSound() {
-        System.out.println(nume + " face sunetul: " + sound);
+
+        System.out.println(type + " " + this.getClass().getName() + " " + "makes sound:" + sound);
     }
 }
