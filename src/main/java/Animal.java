@@ -1,4 +1,5 @@
- public class Animal {
+
+public class Animal {
 
     private String type;
     private String sound;
@@ -9,6 +10,8 @@
     }
 
     public void makeSound() {
-        System.out.println(type+" "+ this.getClass().getName() + " makes sound " + sound);
+
+        System.out.println(type + " " + this.getClass().getName() + " " + "makes sound:" + sound);
+
     }
 }
