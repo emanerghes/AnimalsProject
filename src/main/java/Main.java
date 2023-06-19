@@ -7,9 +7,9 @@ import java.util.List;
         public static void main(String[] args) {
 
             List<Animal> myAnimals = new ArrayList<>();
-            myAnimals.add(new Dog("Labrador", "Ham"));
-            myAnimals.add(new Cat("Siamese", "Meow"));
-            myAnimals.add(new Mouse("White-Footed", "Chitz"));
+            myAnimals.add(new Dog());
+            myAnimals.add(new Cat());
+            myAnimals.add(new Mouse());
 
             for (Animal myAnimal: myAnimals )
             {

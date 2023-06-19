@@ -1,9 +1,10 @@
 
- public class Cat extends Animal {
+public class Cat extends Animal {
 
 
-    public Cat(String name, String sound) {
-        super(name, sound);
+    @Override
+    public void makeSound() {
+        System.out.println(this.getClass().getName() + " " + "makes sound meow");
     }
 
 }
